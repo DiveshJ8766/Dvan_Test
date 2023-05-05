@@ -19,7 +19,7 @@ const {
 
 const onSubmit = async (data, e) => {
 e.preventDefault();
-console.log(data);
+// console.log(data);
 setImgHash(holdHash);
 };
 
