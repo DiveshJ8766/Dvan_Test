@@ -23,8 +23,8 @@ const msg = setTimeout(()=>{
 
 emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
   .then((result) => {
-  console.log(result.text);
-  console.log(data);
+//   console.log(result.text);
+//   console.log(data);
   setShow(true);
   }, (error) => {
   console.log(error.text);
