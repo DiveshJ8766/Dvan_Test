@@ -127,7 +127,7 @@ return (
         </form>
         {imgHash ? (
         <div className="mt-3 text-center text-sm dark:text-red-400 relative" ref={CertificateImage}>
-          {show?<p className="absolute font-medium text-[0.4rem] md:text-base mt-1 ml-2 md:mt-3 text-black" >Hash:{imgHash}</p>:<></>}
+          {show?<p className="absolute font-medium text-[0.4rem] md:text-base mt-1 ml-2 md:mt-3 text-black" >{imgHash}</p>:<></>}
           <img className="rounded-md sm:w-30 sm:h-30" src={`https://gateway.pinata.cloud/ipfs/${imgHash}`}
             alt=" Certificate Is Not Valid" />
         </div>
