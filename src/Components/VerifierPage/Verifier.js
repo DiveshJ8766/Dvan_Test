@@ -75,10 +75,3 @@ return (
 
 export default Verifier;
 
-// Pinata Account Details
-// Email : rayepo5451@syinxun.com
-// Password : Newuser@123
-
-// Email.js
-// Email : rayepo5451@syinxun.com
-// Password : Newuser@123
