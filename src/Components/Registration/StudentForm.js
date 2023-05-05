@@ -29,7 +29,7 @@ setShow(false);
 try {
 await UserDataService.addUser(data);
 setShow(true);
-console.log("User Data : ", data);
+// console.log("User Data : ", data);
 } catch (err) {
 setShow(false);
 console.error("Error Occured : ", err);
