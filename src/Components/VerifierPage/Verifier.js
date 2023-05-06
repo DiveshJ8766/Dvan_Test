@@ -1,5 +1,6 @@
 import React, { useState,useEffect } from "react";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 function Verifier() {
 let [imgHash, setImgHash] = useState("");
@@ -57,6 +58,8 @@ return (
           </div>
           <button type="submit"
             className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Check</button>
+          <Link to="/"
+            className=" text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 ml-2">Go Back</Link>
         </form>
         {imgHash ? (
         <div className="mt-3 text-center text-sm dark:text-red-400">
