@@ -122,8 +122,11 @@ return (
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               {...register("branch", { required: true })} defaultValue="Information Technology">
               <option value="Information Technology">Information Technology</option>
-              <option value="Computer Science">Computer Science</option>
-              <option value="Automobile Engineering">Automobile Engineering</option>
+              <option value="Computer Engineering">Computer Engineering</option>
+              <option value="ENTC">ENTC</option>
+              <option value="Civil Engineering">Civil Engineering</option>
+              <option value="Mechanical Engineering">Mechanical Engineering</option>
+              <option value="Electrical Engineering">Electrical Engineering</option>
             </select>
           </div>
           <div>
