@@ -42,7 +42,7 @@ return (
                 <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     <p>Vaishnavi Deore</p>
                 </h3>
-                <p>Backend-End Developer</p>
+                <p>Back-End Developer</p>
                 <ul className="flex justify-center mt-4 space-x-4">
                     <li>
                         <a href="https://in.linkedin.com/in/vaishnavi-deore-a94678235"  className="text-blue-500 hover:text-gray-900 dark:hover:text-white">
